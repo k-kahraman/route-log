@@ -1,0 +1,16 @@
+# Dependencies
+/backend/vendor/
+/frontend/node_modules/
+
+# Environment configurations
+.env
+/backend/.env
+
+# Local development files & databases
+.DS_Store
+Thumbs.db
+db_data/
+.agents/**
+
+# Added by code-review-graph
+.code-review-graph/

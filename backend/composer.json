@@ -1,0 +1,14 @@
+{
+    "name": "routelog/backend",
+    "description": "RouteLog backend routing and optimization solver service",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "bramus/router": "~1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
